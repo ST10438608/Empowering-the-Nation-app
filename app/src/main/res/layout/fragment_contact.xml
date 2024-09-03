@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#070036"
+    tools:context=".Home">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Contact Us"
+        android:textSize="40dp"
+        android:layout_gravity="top|center_horizontal"
+        android:layout_marginTop="50dp"
+        android:textColor="@color/white"
+        android:textStyle="bold"/>
+
+    <!-- Bullet Points -->
+    <TextView
+        android:id="@+id/contactInfo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:textSize="20sp"
+        android:textColor="@color/white"
+        android:text="\u2022 Phone: +1 (123) 456-7890\n\n\u2022 Email: empoweringourfuture@nation.co.za\n\n\u2022 Address 1: 32 Avenue Street, Johannesburg\n\n\u2022 Address 2: 57 Winnie Mandela Drive, Johannesburg\n\n\u2022 Address 3: 44 Standford Street, Johannesburg"
+        android:lineSpacingExtra="8dp"/>
+
+</FrameLayout>
