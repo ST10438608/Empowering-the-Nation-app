@@ -19,22 +19,24 @@
             />
 
     <Spinner
+        android:id="@+id/spinId"
+        android:text="Courses"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:id="@+id/spinId"
         android:layout_gravity="center"
-        android:textColor="@color/white"
+        android:background="#FBF7F7"
+        android:backgroundTint="#BCB88A"
         android:padding="30dp" />
 
     <TextView
         android:id="@+id/courseDescription"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:textSize="18sp"
-        android:padding="16dp"
-        android:textColor="@color/white"
         android:layout_gravity="center_horizontal|bottom"
         android:layout_marginTop="30dp"
+        android:padding="16dp"
+        android:textColor="@color/white"
+        android:textSize="18sp"
         android:visibility="gone" />
 
 
