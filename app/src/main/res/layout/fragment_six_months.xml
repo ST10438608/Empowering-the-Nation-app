@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
@@ -20,7 +21,6 @@
 
     <Spinner
         android:id="@+id/spinId"
-        android:text="Courses"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_gravity="center"
@@ -34,12 +34,27 @@
         android:layout_height="wrap_content"
         android:layout_gravity="center_horizontal|bottom"
         android:layout_marginTop="30dp"
+        android:layout_marginBottom="200dp"
         android:padding="16dp"
         android:textColor="@color/white"
         android:textSize="18sp"
         android:visibility="gone" />
 
+    <Button
+        android:id="@+id/button"
+        android:layout_width="155dp"
+        android:layout_height="59dp"
+        android:layout_gravity="center_horizontal|bottom"
+        android:layout_marginBottom="50dp"
+        android:backgroundTint="#BCB88A"
+        android:text="Book Course"
+        android:textColor="#0C0C0C" />
 
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="138dp"
+        android:layout_height="122dp"
+        android:src="@drawable/etn_new_final_logo" />
 
 
 </FrameLayout>

@@ -27,4 +27,11 @@
         android:text="\u2022 Phone: +1 (123) 456-7890\n\n\u2022 Email: empoweringourfuture@nation.co.za\n\n\u2022 Address 1: 32 Avenue Street, Johannesburg\n\n\u2022 Address 2: 57 Winnie Mandela Drive, Johannesburg\n\n\u2022 Address 3: 44 Standford Street, Johannesburg"
         android:lineSpacingExtra="8dp"/>
 
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="157dp"
+        android:layout_height="135dp"
+        android:layout_gravity="bottom|right"
+        android:src="@drawable/etn_new_final_logo" />
+
 </FrameLayout>
