@@ -40,9 +40,9 @@ class Six_Weeks : Fragment() {
 
         val courses = arrayOf("Child Minding", "Cooking", "Garden Maintenance")
         val descriptions = arrayOf(
-            "child",
-            "cook stuff",
-            "plant stuff",
+            "Look after children",
+            "Learn to cook affordable and nutritional meals",
+            "Learn to take care of and grow a variety of plants",
         )
 
         val arrayAdp = ArrayAdapter(requireContext(), android.R.layout.simple_spinner_dropdown_item, courses)
