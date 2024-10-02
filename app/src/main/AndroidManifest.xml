@@ -13,6 +13,19 @@
         android:theme="@style/Theme.EmpoweringTheNation"
         tools:targetApi="31">
         <activity
+            android:name=".Life_Skills"
+            android:exported="false" />
+        <activity
+            android:name=".Landscaping"
+            android:exported="false" />
+        <activity
+            android:name=".Sewing"
+            android:exported="false" />
+        <activity
+            android:name=".First_Aid"
+            android:exported="false"
+            android:theme="@style/Theme.EmpoweringTheNation" />
+        <activity
             android:name=".MainActivity"
             android:exported="true">
             <intent-filter>

@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/Six_Months">
+
+    <fragment
+        android:id="@+id/Six_Months"
+        android:name="com.example.empoweringthenation.Six_Months"
+        android:label="@string/Six_Months_label"
+        tools:layout="@layout/fragment_six_months">
+
+        <action
+            android:id="@+id/action_Six_Months_to_First_Aid"
+            app:destination="@id/First_Aid" />
+        <action
+            android:id="@+id/action_Six_Months_to_Sewing"
+            app:destination="@id/Sewing" />
+
+        <action
+            android:id="@+id/action_Six_Months_to_Landscaping"
+            app:destination="@id/Landscaping" />
+
+        <action
+            android:id="@+id/action_Six_Months_to_Life_Skills"
+            app:destination="@id/Life_Skills" />
+    </fragment>
+
+    <activity
+        android:id="@+id/First_Aid"
+        android:name="com.example.empoweringthenation.First_Aid"
+        android:label="@string/First_Aid_label"
+        tools:layout="@layout/activity_first_aid">
+    </activity>
+
+    <activity
+        android:id="@+id/Sewing"
+        android:name="com.example.empoweringthenation.Sewing"
+        android:label="@string/Sewing_label"
+        tools:layout="@layout/activity_sewing">
+    </activity>
+
+    <activity
+        android:id="@+id/Landscaping"
+        android:name="com.example.empoweringthenation.Landscaping"
+        android:label="@string/Landscaping_label"
+        tools:layout="@layout/activity_landscaping">
+    </activity>
+
+    <activity
+        android:id="@+id/Life_Skills"
+        android:name="com.example.empoweringthenation.Life_Skills"
+        android:label="@string/Life_Skills_label"
+        tools:layout="@layout/activity_life_skills">
+    </activity>
+</navigation>
