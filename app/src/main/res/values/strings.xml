@@ -3,11 +3,17 @@
     <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
     <!-- Strings used for fragments for navigation -->
+    <string name="Home_label">Home</string>
+    <string name="Contact_label">Contact</string>
     <string name="Six_Months_label">Six_Months</string>
+    <string name="Six_Weeks_label">Six_Months</string>
     <string name="First_Aid_label">First_Aid</string>
     <string name="Sewing_label">Sewing</string>
     <string name="Landscaping_label">Landscaping</string>
     <string name="Life_Skills_label">Life_Skills</string>
+    <string name="Child_Minding_label">Life_Skills</string>
+    <string name="Cooking_label">Life_Skills</string>
+    <string name="Garden_Maintenance_label">Life_Skills</string>
     <string name="next">Next</string>
     <string name="previous">Previous</string>
 </resources>

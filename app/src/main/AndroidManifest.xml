@@ -13,6 +13,15 @@
         android:theme="@style/Theme.EmpoweringTheNation"
         tools:targetApi="31">
         <activity
+            android:name=".Garden_Maintenance"
+            android:exported="false" />
+        <activity
+            android:name=".Cooking"
+            android:exported="false" />
+        <activity
+            android:name=".Child_Minding"
+            android:exported="false" />
+        <activity
             android:name=".Life_Skills"
             android:exported="false" />
         <activity

@@ -3,7 +3,37 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:id="@+id/nav_graph"
-    app:startDestination="@id/Six_Months">
+    app:startDestination="@id/home">
+
+    <fragment
+        android:id="@+id/home"
+        android:name="com.example.empoweringthenation.Home"
+        android:label="@string/Home_label"
+        tools:layout="@layout/fragment_home">
+
+        <action
+            android:id="@+id/action_home_to_Six_Months"
+            app:destination="@id/Six_Months"
+            app:popUpTo="@id/home"
+            app:popUpToInclusive="true" />
+
+        <action
+            android:id="@+id/action_home_to_Six_Weeks"
+            app:destination="@id/Six_Weeks"
+            app:popUpTo="@id/home"
+            app:popUpToInclusive="true" />
+
+        <action
+            android:id="@+id/action_home_to_contact"
+            app:destination="@id/contact"
+            app:popUpTo="@id/home"
+            app:popUpToInclusive="true" />
+
+    </fragment>
+
+
+
+
 
     <fragment
         android:id="@+id/Six_Months"
@@ -25,6 +55,18 @@
         <action
             android:id="@+id/action_Six_Months_to_Life_Skills"
             app:destination="@id/Life_Skills" />
+
+        <action
+            android:id="@+id/action_Six_Months_to_home"
+            app:destination="@id/home"
+            app:popUpTo="@id/Six_Months"
+            app:popUpToInclusive="true" />
+
+        <action
+            android:id="@+id/action_Six_Months_to_contact"
+            app:destination="@id/contact"
+            app:popUpTo="@id/Six_Months"
+            app:popUpToInclusive="true" />
     </fragment>
 
     <activity
@@ -54,4 +96,87 @@
         android:label="@string/Life_Skills_label"
         tools:layout="@layout/activity_life_skills">
     </activity>
+
+
+
+
+    <fragment
+        android:id="@+id/Six_Weeks"
+        android:name="com.example.empoweringthenation.Six_Weeks"
+        android:label="@string/Six_Weeks_label"
+        tools:layout="@layout/fragment_six_weeks">
+
+        <action
+            android:id="@+id/action_Six_Weeks_to_Child_Minding"
+            app:destination="@id/Child_Minding" />
+
+        <action
+            android:id="@+id/action_Six_Weeks_to_Cooking"
+            app:destination="@id/Cooking" />
+
+        <action
+            android:id="@+id/action_Six_Weeks_to_Garden_Maintenance"
+            app:destination="@id/Garden_Maintenance" />
+
+        <action
+            android:id="@+id/action_Six_Weeks_to_home"
+            app:destination="@id/home"
+            app:popUpTo="@id/Six_Weeks"
+            app:popUpToInclusive="true" />
+
+        <action
+            android:id="@+id/action_Six_Weeks_to_contact"
+            app:destination="@id/contact"
+            app:popUpTo="@id/Six_Weeks"
+            app:popUpToInclusive="true" />
+
+    </fragment>
+
+    <activity
+        android:id="@+id/Child_Minding"
+        android:name="com.example.empoweringthenation.Child_Minding"
+        android:label="@string/Child_Minding_label"
+        tools:layout="@layout/activity_child_minding">
+    </activity>
+
+    <activity
+        android:id="@+id/Cooking"
+        android:name="com.example.empoweringthenation.Cooking"
+        android:label="@string/Cooking_label"
+        tools:layout="@layout/activity_cooking">
+    </activity>
+
+    <activity
+        android:id="@+id/Garden_Maintenance"
+        android:name="com.example.empoweringthenation.Garden_Maintenance"
+        android:label="@string/Garden_Maintenance_label"
+        tools:layout="@layout/activity_garden_maintenance">
+    </activity>
+
+    <fragment
+        android:id="@+id/contact"
+        android:name="com.example.empoweringthenation.Contact"
+        android:label="@string/Contact_label"
+        tools:layout="@layout/fragment_contact">
+
+        <action
+            android:id="@+id/action_contact_to_Six_Months"
+            app:destination="@id/Six_Months"
+            app:popUpTo="@id/contact"
+            app:popUpToInclusive="true" />
+
+        <action
+            android:id="@+id/action_contact_to_Six_Weeks"
+            app:destination="@id/Six_Weeks"
+            app:popUpTo="@id/contact"
+            app:popUpToInclusive="true" />
+
+        <action
+            android:id="@+id/action_contact_to_home"
+            app:destination="@id/home"
+            app:popUpTo="@id/contact"
+            app:popUpToInclusive="true" />
+    </fragment>
+
+
 </navigation>
