@@ -1,5 +1,6 @@
 package com.example.empoweringthenation
 
+import android.content.Intent
 import android.os.Bundle
 import android.widget.Button
 import androidx.activity.enableEdgeToEdge
@@ -16,6 +17,12 @@ class Life_Skills : AppCompatActivity() {
         val backButton = findViewById<Button>(R.id.backButton)
         backButton.setOnClickListener {
             finish()
+        }
+
+        val feesButton = findViewById<Button>(R.id.feesButton)
+        feesButton.setOnClickListener {
+            val intent = Intent(this, Fees::class.java)
+            startActivity(intent)
         }
     }
 }

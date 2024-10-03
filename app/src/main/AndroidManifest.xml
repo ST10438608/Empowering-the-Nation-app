@@ -13,6 +13,9 @@
         android:theme="@style/Theme.EmpoweringTheNation"
         tools:targetApi="31">
         <activity
+            android:name=".Fees"
+            android:exported="false" />
+        <activity
             android:name=".Garden_Maintenance"
             android:exported="false" />
         <activity
