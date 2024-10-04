@@ -43,8 +43,8 @@
             android:layout_height="wrap_content"
             android:text="By joining this course, you'll not only gain confidence in caring for young children
 but also open doors to better job opportunities or even start your own child-minding business.
-            Empower yourself with practical knowledge that’s valuable to any household or employer.
-            Enrich your skills—because when children are cared for with expertise and love, they thrive!"
+Empower yourself with practical knowledge that’s valuable to any household or employer.
+Enrich your skills—because when children are cared for with expertise and love, they thrive!"
             android:textColor="#FFFFFF"
             android:textSize="18sp"
             android:paddingTop="16dp" />
@@ -63,8 +63,8 @@ but also open doors to better job opportunities or even start your own child-min
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="This course is designed to equip caregivers with essential skills for providing high-quality
-            care to children, from newborns to toddlers. Whether you're new to childcare or looking to enhance your expertise, this course prepares you to confidently handle the unique needs of babies and toddlers while fostering their
-            growth and development."
+care to children, from newborns to toddlers. Whether you're new to childcare or looking to enhance your expertise, this course prepares you to confidently handle the unique needs of babies and toddlers while fostering their
+growth and development."
             android:textColor="#FFFFFF"
             android:textSize="18sp"
             android:paddingTop="16dp" />

@@ -64,9 +64,9 @@ class Fees : AppCompatActivity() {
     private fun updateCheckboxes(position: Int) {
         checkBoxContainer.removeAllViews()
         val options = if (position == 0) { // Six Months
-            arrayOf("First Aid", "Sewing", "Landscaping", "Life Skills")
+            arrayOf("First Aid (R1500)", "Sewing (R1500)", "Landscaping (R1500)", "Life Skills (R1500)")
         } else { // Six Weeks
-            arrayOf("Child Minding", "Cooking", "Garden Maintenance")
+            arrayOf("Child Minding (R750)", "Cooking (R750)", "Garden Maintenance (R750)")
         }
         addCheckBoxes(options)
     }
@@ -125,8 +125,8 @@ class Fees : AppCompatActivity() {
 
         for (course in selectedCourses) {
             when (course) {
-                "First Aid", "Sewing", "Landscaping", "Life Skills" -> totalFees += 1500.0
-                "Child Minding", "Cooking", "Garden Maintenance" -> totalFees += 750.0
+                "First Aid (R1500)", "Sewing (R1500)", "Landscaping (R1500)", "Life Skills (R1500)" -> totalFees += 1500.0
+                "Child Minding (R750)", "Cooking (R750)", "Garden Maintenance (R750)" -> totalFees += 750.0
             }
         }
         // Calculate the discount based on the number of courses

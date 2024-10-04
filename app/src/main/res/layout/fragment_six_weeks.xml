@@ -33,16 +33,16 @@
 
     <ImageView
         android:id="@+id/childmindingImage"
-        android:layout_width="wrap_content"
-        android:layout_height="150dp"
+        android:layout_width="match_parent"
+        android:layout_height="160dp"
         android:layout_gravity="center_horizontal"
         android:layout_marginTop="20dp"
         android:src="@drawable/childminding" />
 
     <ImageView
         android:id="@+id/cookingImage"
-        android:layout_width="wrap_content"
-        android:layout_height="150dp"
+        android:layout_width="match_parent"
+        android:layout_height="167dp"
         android:layout_gravity="center_horizontal"
         android:layout_marginTop="20dp"
         android:src="@drawable/cooking" />
