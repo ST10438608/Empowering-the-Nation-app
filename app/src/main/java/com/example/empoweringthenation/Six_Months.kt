@@ -74,6 +74,18 @@ class Six_Months : Fragment() {
             .load(R.drawable.landscaping)
             .into(landscapingImage)
 
+        Glide.with(this)
+            .load(R.drawable.first_aid_symbol)
+            .into(firstAidImage)
+
+        Glide.with(this)
+            .load(R.drawable.sewing)
+            .into(sewingImage)
+
+        Glide.with(this)
+            .load(R.drawable.lifeskills)
+            .into(lifeSkillsImage)
+
     }
 
     companion object {

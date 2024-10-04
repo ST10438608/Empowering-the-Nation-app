@@ -7,7 +7,7 @@ import android.view.View
 import android.view.ViewGroup
 import android.widget.ImageView
 import androidx.navigation.fragment.findNavController
-
+import com.bumptech.glide.Glide
 
 
 private const val ARG_PARAM1 = "param1"
@@ -58,6 +58,23 @@ class Six_Weeks : Fragment() {
         }
 
         return view
+    }
+
+    override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
+        super.onViewCreated(view, savedInstanceState)
+
+        Glide.with(this)
+            .load(R.drawable.childminding)
+            .into(childMindingImage)
+
+        Glide.with(this)
+            .load(R.drawable.cooking)
+            .into(cookingImage)
+
+        Glide.with(this)
+            .load(R.drawable.gardenmaintenance)
+            .into(gardenImage)
+
     }
 
     companion object {
