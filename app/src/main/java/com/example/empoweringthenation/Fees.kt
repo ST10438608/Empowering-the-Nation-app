@@ -121,22 +121,27 @@ class Fees : AppCompatActivity() {
     fun calculateFees(selectedCourses: Array<String>) {
         // Calculate the total fees based on the selected courses
         var totalFees = 0.0
+        val courseCount = selectedCourses.size
 
         for (course in selectedCourses) {
             when (course) {
-                "First Aid" -> totalFees += 1500.0
-                "Sewing" -> totalFees += 1500.0
-                "Landscaping" -> totalFees += 1500.0
-                "Life Skills" -> totalFees += 1500.0
-                "Child Minding" -> totalFees += 750.0
-                "Cooking" -> totalFees += 750.0
-                "Garden Maintenance" -> totalFees += 750.0
+                "First Aid", "Sewing", "Landscaping", "Life Skills" -> totalFees += 1500.0
+                "Child Minding", "Cooking", "Garden Maintenance" -> totalFees += 750.0
             }
         }
-        showFeesPopup(totalFees)
-    }
+        // Calculate the discount based on the number of courses
+        val discount = when {
+            courseCount == 2 -> 0.05 // 5% discount
+            courseCount == 3 -> 0.10 // 10% discount
+            courseCount > 3 -> 0.15 // 15% discount
+            else -> 0.0 // No discount
+        }
 
+        val finalFees = totalFees * (1 - discount)
+
+        showFeesPopup(finalFees)
     }
+}
 
 
 
