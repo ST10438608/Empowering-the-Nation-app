@@ -29,10 +29,37 @@
 
 
         <TextView
+            android:id="@+id/header"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Why Enroll?"
+            android:textColor="#FFFFFF"
+            android:textSize="24sp"
+            android:paddingTop="16dp" />
+
+        <TextView
             android:id="@+id/companyDescription"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Explore landscaping and garden design."
+            android:text="Transform any garden into a serene, beautiful space with this landscaping course. Whether you're an aspiring landscaper or a garden enthusiast, you'll learn to design aesthetically pleasing outdoor environments that reflect nature's beauty. Gain the skills to create harmony between plants, trees, and fixed structures."
+            android:textColor="#FFFFFF"
+            android:textSize="18sp"
+            android:paddingTop="16dp" />
+
+        <TextView
+            android:id="@+id/header2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Purpose"
+            android:textColor="#FFFFFF"
+            android:textSize="24sp"
+            android:paddingTop="16dp" />
+
+        <TextView
+            android:id="@+id/purpose"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="This course offers a deep dive into landscaping services for both new and established gardens. Learn to balance indigenous and exotic plants, design garden layouts, and incorporate structures like fountains and benches. Shape outdoor spaces into inviting, well-planned environments."
             android:textColor="#FFFFFF"
             android:textSize="18sp"
             android:paddingTop="16dp" />
@@ -42,7 +69,8 @@
             android:layout_width="155dp"
             android:layout_height="59dp"
             android:layout_gravity="center_horizontal|bottom"
-            android:layout_marginBottom="50dp"
+            android:layout_marginBottom="15dp"
+            android:layout_marginTop="15dp"
             android:backgroundTint="#BCB88A"
             android:text="Back"
             android:textColor="#0C0C0C" />

@@ -29,10 +29,37 @@
 
 
         <TextView
+            android:id="@+id/header"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Why Enroll?"
+            android:textColor="#FFFFFF"
+            android:textSize="24sp"
+            android:paddingTop="16dp" />
+
+        <TextView
             android:id="@+id/companyDescription"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Develop essential life skills for success."
+            android:text="Equip yourself with the essential skills to confidently navigate everyday life. From managing finances to understanding your rights at work, this course will empower you to handle the practicalities of life with ease. Whether you're just starting out or need a refresh, these life skills are invaluable."
+            android:textColor="#FFFFFF"
+            android:textSize="18sp"
+            android:paddingTop="16dp" />
+
+        <TextView
+            android:id="@+id/header2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Purpose"
+            android:textColor="#FFFFFF"
+            android:textSize="24sp"
+            android:paddingTop="16dp" />
+
+        <TextView
+            android:id="@+id/purpose"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="This course focuses on providing the foundational skills needed for daily life. Learn how to open a bank account, understand basic labour law, and improve your reading, writing, and numeric literacy. Gain the knowledge and tools to thrive in both personal and professional environments."
             android:textColor="#FFFFFF"
             android:textSize="18sp"
             android:paddingTop="16dp" />
@@ -42,7 +69,8 @@
             android:layout_width="155dp"
             android:layout_height="59dp"
             android:layout_gravity="center_horizontal|bottom"
-            android:layout_marginBottom="50dp"
+            android:layout_marginBottom="15dp"
+            android:layout_marginTop="15dp"
             android:backgroundTint="#BCB88A"
             android:text="Back"
             android:textColor="#0C0C0C" />

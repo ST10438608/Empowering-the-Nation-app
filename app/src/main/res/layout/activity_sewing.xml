@@ -29,10 +29,37 @@
 
 
         <TextView
+            android:id="@+id/header"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Why Enroll?"
+            android:textColor="#FFFFFF"
+            android:textSize="24sp"
+            android:paddingTop="16dp" />
+
+        <TextView
             android:id="@+id/companyDescription"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Master the basics of sewing."
+            android:text="If you've ever wanted to create or tailor your own garments, this course is for you! Gain the practical skills needed for clothing alterations or to design brand-new pieces. Whether for personal projects or starting a tailoring business, you’ll leave equipped to stitch your way to success."
+            android:textColor="#FFFFFF"
+            android:textSize="18sp"
+            android:paddingTop="16dp" />
+
+        <TextView
+            android:id="@+id/header2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Purpose"
+            android:textColor="#FFFFFF"
+            android:textSize="24sp"
+            android:paddingTop="16dp" />
+
+        <TextView
+            android:id="@+id/purpose"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Designed for both beginners and seasoned tailors, this course covers everything from stitching techniques to sewing machine setup. Learn to sew buttons, zips, hems, and alter clothing, or create custom designs for new garments. Expand your creative skills while mastering practical sewing."
             android:textColor="#FFFFFF"
             android:textSize="18sp"
             android:paddingTop="16dp" />
@@ -42,7 +69,8 @@
             android:layout_width="155dp"
             android:layout_height="59dp"
             android:layout_gravity="center_horizontal|bottom"
-            android:layout_marginBottom="50dp"
+            android:layout_marginBottom="15dp"
+            android:layout_marginTop="15dp"
             android:backgroundTint="#BCB88A"
             android:text="Back"
             android:textColor="#0C0C0C" />

@@ -27,12 +27,39 @@
             android:textSize="30sp"
             android:textStyle="bold" />
 
+        <TextView
+            android:id="@+id/header"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Why Enroll?"
+            android:textColor="#FFFFFF"
+            android:textSize="24sp"
+            android:paddingTop="16dp" />
 
         <TextView
             android:id="@+id/companyDescription"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Learn essential first-aid techniques."
+            android:text="By joining this First Aid course, you'll gain critical skills to handle emergencies and offer potentially life-saving support. Whether
+            for personal knowledge or to enhance your career in safety-related fields, this course empowers you to act confidently in a crisis. Take charge in emergencies—your readiness can make all the difference."
+            android:textColor="#FFFFFF"
+            android:textSize="18sp"
+            android:paddingTop="16dp" />
+
+        <TextView
+            android:id="@+id/header2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Purpose"
+            android:textColor="#FFFFFF"
+            android:textSize="24sp"
+            android:paddingTop="16dp" />
+
+        <TextView
+            android:id="@+id/purpose"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="This course provides essential first aid awareness and basic life support. Learn how to manage wounds, burns, fractures, and handle emergencies like CPR and respiratory distress. You'll be equipped to respond to emergencies, manage injury scenes, and provide vital support when it matters most."
             android:textColor="#FFFFFF"
             android:textSize="18sp"
             android:paddingTop="16dp" />
@@ -42,7 +69,8 @@
             android:layout_width="155dp"
             android:layout_height="59dp"
             android:layout_gravity="center_horizontal|bottom"
-            android:layout_marginBottom="50dp"
+            android:layout_marginBottom="15dp"
+            android:layout_marginTop="15dp"
             android:backgroundTint="#BCB88A"
             android:text="Back"
             android:textColor="#0C0C0C" />
