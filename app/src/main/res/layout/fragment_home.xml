@@ -42,13 +42,15 @@
             android:text="Empowering the Nation is an organisation aimed at providing skills training for domestic workers and gardeners."
             android:textColor="#FFFFFF"
             android:textSize="18sp"
-            android:paddingTop="16dp" />
+            android:paddingTop="16dp"
+            android:layout_marginBottom="16dp"
+            />
 
-        <ImageView
-            android:id="@+id/imageView3"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:src="@drawable/gardentraining" />
+        <androidx.viewpager2.widget.ViewPager2
+            android:id="@+id/image_slider"
+            android:layout_width="300dp"
+            android:layout_height="200dp"
+            android:layout_gravity="center_horizontal" />
 
     </LinearLayout>
 
