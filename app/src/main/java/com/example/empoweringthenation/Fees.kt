@@ -7,11 +7,13 @@ import android.widget.AdapterView
 import android.widget.ArrayAdapter
 import android.widget.Button
 import android.widget.CheckBox
+import android.widget.EditText
 import android.widget.LinearLayout
 import android.widget.PopupWindow
 import android.widget.Spinner
 import android.widget.SpinnerAdapter
 import android.widget.TextView
+import android.widget.Toast
 import androidx.activity.enableEdgeToEdge
 import androidx.appcompat.app.AppCompatActivity
 import androidx.core.content.ContextCompat
@@ -21,6 +23,7 @@ class Fees : AppCompatActivity() {
     private lateinit var checkBoxContainer: LinearLayout
     private val sixMonthsSelections = mutableListOf<String>()
     private val sixWeeksSelections = mutableListOf<String>()
+
 
 
     override fun onCreate(savedInstanceState: Bundle?) {
@@ -122,6 +125,15 @@ class Fees : AppCompatActivity() {
         // Calculate the total fees based on the selected courses
         var totalFees = 0.0
         val courseCount = selectedCourses.size
+
+        val fullName = findViewById<EditText>(R.id.fullNameEditText).text.toString()
+        val email = findViewById<EditText>(R.id.emailEditText).text.toString()
+        val phoneNumber = findViewById<EditText>(R.id.numberEditText).text.toString()
+
+        if (fullName.isEmpty() || email.isEmpty() || phoneNumber.isEmpty()) {
+            Toast.makeText(this, "Please fill in all fields", Toast.LENGTH_SHORT).show()
+            return // Stop further execution
+        }
 
         for (course in selectedCourses) {
             when (course) {

@@ -38,6 +38,15 @@
             android:layout_marginTop="20dp"
             android:src="@drawable/first_aid_symbol" />
 
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="-- First-Aid --"
+            android:gravity="center_horizontal"
+            android:textSize="30sp"
+            android:textColor="@color/white"
+            />
+
         <ImageView
             android:id="@+id/sewingImage"
             android:layout_width="wrap_content"
@@ -45,6 +54,15 @@
             android:layout_gravity="center_horizontal"
             android:layout_marginTop="20dp"
             android:src="@drawable/sewing" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="-- Sewing --"
+            android:gravity="center_horizontal"
+            android:textSize="30sp"
+            android:textColor="@color/white"
+            />
 
         <ImageView
             android:id="@+id/landscapingImage"
@@ -54,6 +72,15 @@
             android:layout_marginTop="20dp"
             android:src="@drawable/landscaping" />
 
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="-- Landscaping --"
+            android:gravity="center_horizontal"
+            android:textSize="30sp"
+            android:textColor="@color/white"
+            />
+
         <ImageView
             android:id="@+id/lifeSkillsImage"
             android:layout_width="wrap_content"
@@ -61,6 +88,15 @@
             android:layout_gravity="center_horizontal"
             android:layout_marginTop="20dp"
             android:src="@drawable/lifeskills" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="-- Life Skills --"
+            android:gravity="center_horizontal"
+            android:textSize="30sp"
+            android:textColor="@color/white"
+            />
 
     </LinearLayout>
 </ScrollView>
