@@ -19,8 +19,9 @@
 
         <ImageView
             android:id="@+id/imageView5"
-            android:layout_width="match_parent"
-            android:layout_height="230dp"
+            android:layout_width="200dp"
+            android:layout_height="200dp"
+            android:layout_gravity="center_horizontal"
             android:layout_marginBottom="16dp"
             android:src="@drawable/cooking" />
 
@@ -29,49 +30,71 @@
             android:layout_height="wrap_content"
             android:layout_gravity="center_horizontal"
             android:text="Cooking"
+            android:fontFamily="sans-serif-condensed"
             android:textColor="@color/white"
-            android:textSize="30sp"
+            android:textSize="34sp"
             android:textStyle="bold" />
 
         <TextView
             android:id="@+id/header"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:fontFamily="sans-serif-smallcaps"
+            android:paddingTop="5dp"
             android:text="Why Enroll?"
-            android:textColor="#FFFFFF"
-            android:textSize="24sp"
-            android:paddingTop="16dp" />
+            android:textColor="@color/gold"
+            android:textSize="30sp"  />
 
         <TextView
             android:id="@+id/companyDescription"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="This course is perfect for anyone looking to improve their cooking skills, whether for personal enjoyment or professional growth. By the end of the six weeks, you’ll not only have a strong grasp of nutrition and meal planning but also the practical skills to confidently prepare healthy and delicious meals for your family or clients.
-If you're passionate about creating tasty, nutritious meals, this course will elevate your cooking game. Whether you're pursuing a career in food services or simply looking to become the go-to chef in your household, this is the perfect opportunity to take your cooking skills to the next level.
-Enroll today and start making meals that nourish both body and soul !"
+            android:text="This course is perfect for anyone looking to improve their cooking skills, whether for personal enjoyment or professional growth. By the end of the six weeks, you’ll not only have a strong grasp of nutrition and meal planning but also the practical skills to confidently prepare healthy and delicious meals for your family or clients. If you're passionate about creating tasty, nutritious meals, this course will elevate your cooking game. Whether you're pursuing a career in food services or simply looking to become the go-to chef in your household, this is the perfect opportunity to take your cooking skills to the next level."
             android:textColor="#FFFFFF"
-            android:textSize="18sp"
-            android:paddingTop="16dp" />
+            android:textSize="20sp"
+            android:fontFamily="sans-serif-condensed"
+            android:paddingTop="5dp" />
 
         <TextView
             android:id="@+id/header2"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:fontFamily="sans-serif-smallcaps"
+            android:paddingTop="5dp"
             android:text="Purpose"
-            android:textColor="#FFFFFF"
-            android:textSize="24sp"
-            android:paddingTop="16dp" />
+            android:textColor="@color/gold"
+            android:textSize="30sp" />
 
         <TextView
             android:id="@+id/purpose"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="This course is designed to equip you with the skills and knowledge needed to prepare and cook nutritious meals for families.
-                          Whether you're a beginner in the kitchen or looking to enhance your culinary abilities, this course provides a solid foundation for understanding nutrition, meal planning, and various cooking techniques to ensure every meal you prepare is balanced and delicious."
+            android:text="This course is designed to equip you with the skills and knowledge needed to prepare and cook nutritious meals for families. Whether you're a beginner in the kitchen or looking to enhance your culinary abilities, this course provides a solid foundation for understanding nutrition, meal planning, and various cooking techniques to ensure every meal you prepare is balanced and delicious. Throughout the course, you’ll complete a variety of culinary projects, including meal planning, experimenting with flavors, and creating full-course menus. By the end, you'll have a professional cooking portfolio filled with recipes, photos, and techniques to showcase your skills to potential clients or employers."
             android:textColor="#FFFFFF"
-            android:textSize="18sp"
-            android:paddingTop="16dp" />
+            android:textSize="20sp"
+            android:fontFamily="sans-serif-condensed"
+            android:paddingTop="5dp" />
 
+        <TextView
+            android:id="@+id/header3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="sans-serif-condensed"
+            android:paddingTop="5dp"
+            android:text="Fees"
+            android:textColor="#FFD700"
+            android:textSize="30sp" />
+
+        <TextView
+            android:id="@+id/fees"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="sans-serif-condensed"
+            android:paddingTop="5dp"
+            android:text="This course will take 6 weeks to complete.
+Fees are R750"
+            android:textColor="#FFFFFF"
+            android:textSize="20sp" />
 
         <Button
             android:id="@+id/backButton"

@@ -19,8 +19,9 @@
 
         <ImageView
             android:id="@+id/imageView8"
-            android:layout_width="match_parent"
+            android:layout_width="200dp"
             android:layout_height="200dp"
+            android:layout_gravity="center_horizontal"
             android:src="@drawable/landscaping"
             android:layout_marginBottom="16dp"/>
 
@@ -28,9 +29,10 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_gravity="center_horizontal"
+            android:fontFamily="sans-serif-condensed"
             android:text="Landscaping"
             android:textColor="@color/white"
-            android:textSize="30sp"
+            android:textSize="34sp"
             android:textStyle="bold" />
 
 
@@ -38,37 +40,62 @@
             android:id="@+id/header"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:fontFamily="sans-serif-smallcaps"
+            android:paddingTop="5dp"
             android:text="Why Enroll?"
-            android:textColor="#FFFFFF"
-            android:textSize="24sp"
-            android:paddingTop="16dp" />
+            android:textColor="@color/gold"
+            android:textSize="30sp" />
 
         <TextView
             android:id="@+id/companyDescription"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Transform any garden into a serene, beautiful space with this landscaping course. Whether you're an aspiring landscaper or a garden enthusiast, you'll learn to design aesthetically pleasing outdoor environments that reflect nature's beauty. Gain the skills to create harmony between plants, trees, and fixed structures."
+            android:text="Learn essential landscaping skills that can help you build a career in gardening or start your own landscaping business. Gain practical knowledge about designing outdoor spaces and caring for gardens, plants, and lawns."
             android:textColor="#FFFFFF"
-            android:textSize="18sp"
-            android:paddingTop="16dp" />
+            android:textSize="20sp"
+            android:fontFamily="sans-serif-condensed"
+            android:paddingTop="5dp" />
 
         <TextView
             android:id="@+id/header2"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:fontFamily="sans-serif-smallcaps"
+            android:paddingTop="5dp"
             android:text="Purpose"
-            android:textColor="#FFFFFF"
-            android:textSize="24sp"
-            android:paddingTop="16dp" />
+            android:textColor="@color/gold"
+            android:textSize="30sp" />
 
         <TextView
             android:id="@+id/purpose"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="This course offers a deep dive into landscaping services for both new and established gardens. Learn to balance indigenous and exotic plants, design garden layouts, and incorporate structures like fountains and benches. Shape outdoor spaces into inviting, well-planned environments."
+            android:text="quip individuals with the knowledge to respond to medical emergencies, administer CPR, and manage injuries until professional help arrives. Throughout the course, you’ll complete hands-on projects, such as designing garden layouts, selecting and arranging plants, and incorporating fixed features like benches and fountains. By the end, you'll have a professional portfolio showcasing your landscaping designs, perfect for presenting to clients or employers."
             android:textColor="#FFFFFF"
-            android:textSize="18sp"
-            android:paddingTop="16dp" />
+            android:textSize="20sp"
+            android:fontFamily="sans-serif-condensed"
+            android:paddingTop="5dp" />
+
+        <TextView
+            android:id="@+id/header3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="sans-serif-condensed"
+            android:paddingTop="5dp"
+            android:text="Fees"
+            android:textColor="#FFD700"
+            android:textSize="30sp" />
+
+        <TextView
+            android:id="@+id/fees"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="sans-serif-condensed"
+            android:paddingTop="5dp"
+            android:text="This course will take 6 months to complete.
+Fees are R1500"
+            android:textColor="#FFFFFF"
+            android:textSize="20sp" />
 
         <Button
             android:id="@+id/backButton"

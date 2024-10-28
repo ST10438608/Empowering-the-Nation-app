@@ -19,8 +19,9 @@
 
         <ImageView
             android:id="@+id/imageView11"
-            android:layout_width="match_parent"
+            android:layout_width="200dp"
             android:layout_height="200dp"
+            android:layout_gravity="center_horizontal"
             android:layout_marginBottom="16dp"
             android:src="@drawable/lifeskills" />
 
@@ -29,8 +30,9 @@
             android:layout_height="wrap_content"
             android:layout_gravity="center_horizontal"
             android:text="Life Skills"
+            android:fontFamily="sans-serif-condensed"
             android:textColor="@color/white"
-            android:textSize="30sp"
+            android:textSize="34sp"
             android:textStyle="bold" />
 
 
@@ -38,37 +40,62 @@
             android:id="@+id/header"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:fontFamily="sans-serif-smallcaps"
+            android:paddingTop="5dp"
             android:text="Why Enroll?"
-            android:textColor="#FFFFFF"
-            android:textSize="24sp"
-            android:paddingTop="16dp" />
+            android:textColor="@color/gold"
+            android:textSize="30sp"  />
 
         <TextView
             android:id="@+id/companyDescription"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Equip yourself with the essential skills to confidently navigate everyday life. From managing finances to understanding your rights at work, this course will empower you to handle the practicalities of life with ease. Whether you're just starting out or need a refresh, these life skills are invaluable."
+            android:text="Master the skills needed to manage personal and professional life challenges with confidence and purpose. Whether you're looking to improve your communication, financial literacy, or emotional intelligence, this course offers valuable tools for self-development."
             android:textColor="#FFFFFF"
-            android:textSize="18sp"
-            android:paddingTop="16dp" />
+            android:textSize="20sp"
+            android:fontFamily="sans-serif-condensed"
+            android:paddingTop="5dp" />
 
         <TextView
             android:id="@+id/header2"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:fontFamily="sans-serif-smallcaps"
+            android:paddingTop="5dp"
             android:text="Purpose"
-            android:textColor="#FFFFFF"
-            android:textSize="24sp"
-            android:paddingTop="16dp" />
+            android:textColor="@color/gold"
+            android:textSize="30sp" />
 
         <TextView
             android:id="@+id/purpose"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="This course focuses on providing the foundational skills needed for daily life. Learn how to open a bank account, understand basic labour law, and improve your reading, writing, and numeric literacy. Gain the knowledge and tools to thrive in both personal and professional environments."
+            android:text="This course is designed to help individuals develop practical life skills, including time management, budgeting, and decision-making, that can enhance both personal and professional growth. Throughout the Life Skills course, you’ll work on practical projects like creating a personal budget, drafting simple documents, and improving everyday math skills. By the end, you'll have a portfolio of essential life tools and resources to support personal growth and make a strong impression in any work or home setting."
             android:textColor="#FFFFFF"
-            android:textSize="18sp"
-            android:paddingTop="16dp" />
+            android:textSize="20sp"
+            android:fontFamily="sans-serif-condensed"
+            android:paddingTop="5dp" />
+
+        <TextView
+            android:id="@+id/header3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="sans-serif-condensed"
+            android:paddingTop="5dp"
+            android:text="Fees"
+            android:textColor="#FFD700"
+            android:textSize="30sp" />
+
+        <TextView
+            android:id="@+id/fees"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="sans-serif-condensed"
+            android:paddingTop="5dp"
+            android:text="This course will take 6 months to complete.
+Fees are R1500"
+            android:textColor="#FFFFFF"
+            android:textSize="20sp" />
 
         <Button
             android:id="@+id/backButton"

@@ -19,8 +19,9 @@
 
         <ImageView
             android:id="@+id/imageView7"
-            android:layout_width="match_parent"
+            android:layout_width="200dp"
             android:layout_height="200dp"
+            android:layout_gravity="center_horizontal"
             android:layout_marginBottom="16dp"
             android:src="@drawable/gardenmaintenance" />
 
@@ -29,8 +30,9 @@
             android:layout_height="wrap_content"
             android:layout_gravity="center_horizontal"
             android:text="Garden Maintenance"
+            android:fontFamily="sans-serif-condensed"
             android:textColor="@color/white"
-            android:textSize="30sp"
+            android:textSize="34sp"
             android:textStyle="bold" />
 
 
@@ -38,39 +40,62 @@
             android:id="@+id/header"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:fontFamily="sans-serif-smallcaps"
+            android:paddingTop="5dp"
             android:text="Why Enroll?"
-            android:textColor="#FFFFFF"
-            android:textSize="24sp"
-            android:paddingTop="16dp" />
+            android:textColor="@color/gold"
+            android:textSize="30sp"  />
 
         <TextView
             android:id="@+id/companyDescription"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="This Garden Maintenance course is ideal for anyone who wants to improve their gardening skills, whether for personal satisfaction or to pursue a career in landscaping. The knowledge and techniques you’ll gain will not only enhance the beauty of your own garden but could also open doors to opportunities in garden maintenance and landscaping services.
-By the end of this course, you’ll have the confidence and expertise to create and maintain a garden that is not only visually stunning but also sustainable and eco-friendly. Imagine transforming any outdoor space into a green oasis with vibrant plants that thrive year-round!
-Enroll today and take the first step toward mastering the essential skills of garden care and design. Turn your love for nature into a valuable skill that can improve your home, your community, or even start a new career!"
+            android:text="This Garden Maintenance course is ideal for anyone who wants to improve their gardening skills, whether for personal satisfaction or to pursue a career in landscaping. The knowledge and techniques you’ll gain will not only enhance the beauty of your own garden but could also open doors to opportunities in garden maintenance and landscaping services. By the end of this course, you’ll have the confidence and expertise to create and maintain a garden that is not only visually stunning but also sustainable and eco-friendly. Imagine transforming any outdoor space into a green oasis with vibrant plants that thrive year-round!"
             android:textColor="#FFFFFF"
-            android:textSize="18sp"
-            android:paddingTop="16dp" />
+            android:textSize="20sp"
+            android:fontFamily="sans-serif-condensed"
+            android:paddingTop="5dp" />
 
         <TextView
             android:id="@+id/header2"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:fontFamily="sans-serif-smallcaps"
+            android:paddingTop="5dp"
             android:text="Purpose"
-            android:textColor="#FFFFFF"
-            android:textSize="24sp"
-            android:paddingTop="16dp" />
+            android:textColor="@color/gold"
+            android:textSize="30sp" />
 
         <TextView
             android:id="@+id/purpose"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="This course is designed to equip you with the fundamental skills and knowledge necessary to maintain a healthy and beautiful domestic garden. Whether you're a beginner gardener or someone looking to refine your green thumb, this course provides the essential training needed to understand plant care, from watering and pruning to planting techniques that promote vibrant, thriving gardens."
+            android:text="This course is designed to equip you with the fundamental skills and knowledge necessary to maintain a healthy and beautiful domestic garden. Whether you're a beginner gardener or someone looking to refine your green thumb, this course provides the essential training needed to understand plant care, from watering and pruning to planting techniques that promote vibrant, thriving gardens. Throughout the course, you’ll work on projects like seasonal planting, pest management, and lawn care. By the end, you’ll have a portfolio demonstrating your garden maintenance skills, perfect for impressing clients or employers in the landscaping field."
             android:textColor="#FFFFFF"
-            android:textSize="18sp"
-            android:paddingTop="16dp" />
+            android:textSize="20sp"
+            android:fontFamily="sans-serif-condensed"
+            android:paddingTop="5dp" />
+
+        <TextView
+            android:id="@+id/header3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="sans-serif-condensed"
+            android:paddingTop="5dp"
+            android:text="Fees"
+            android:textColor="#FFD700"
+            android:textSize="30sp" />
+
+        <TextView
+            android:id="@+id/fees"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="sans-serif-condensed"
+            android:paddingTop="5dp"
+            android:text="This course will take 6 weeks to complete.
+Fees are R750"
+            android:textColor="#FFFFFF"
+            android:textSize="20sp" />
 
         <Button
             android:id="@+id/backButton"

@@ -19,8 +19,9 @@
 
         <ImageView
             android:id="@+id/imageView3"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
+            android:layout_width="200dp"
+            android:layout_height="200dp"
+            android:layout_gravity="center_horizontal"
             android:src="@drawable/childminding"
             android:layout_marginBottom="10dp"/>
 
@@ -30,7 +31,8 @@
             android:layout_gravity="center_horizontal"
             android:text="Child Minding"
             android:textColor="@color/white"
-            android:textSize="30sp"
+            android:fontFamily="sans-serif-condensed"
+            android:textSize="34sp"
             android:textStyle="bold" />
 
 
@@ -38,42 +40,62 @@
             android:id="@+id/header"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:fontFamily="sans-serif-smallcaps"
+            android:paddingTop="5dp"
             android:text="Why Enroll?"
-            android:textColor="#FFFFFF"
-            android:textSize="24sp"
-            android:paddingTop="16dp" />
+            android:textColor="@color/gold"
+            android:textSize="30sp"  />
 
         <TextView
             android:id="@+id/companyDescription"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="By joining this course, you'll not only gain confidence in caring for young children
-but also open doors to better job opportunities or even start your own child-minding business.
-Empower yourself with practical knowledge that’s valuable to any household or employer.
-Enrich your skills—because when children are cared for with expertise and love, they thrive!"
+            android:text="By joining this course, you'll not only gain confidence in caring for young children but also open doors to better job opportunities or even start your own child-minding business. Empower yourself with practical knowledge that’s valuable to any household or employer. Enrich your skills—because when children are cared for with expertise and love, they thrive!"
             android:textColor="#FFFFFF"
-            android:textSize="18sp"
-            android:paddingTop="16dp" />
+            android:textSize="20sp"
+            android:fontFamily="sans-serif-condensed"
+            android:paddingTop="5dp" />
 
         <TextView
             android:id="@+id/header2"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:fontFamily="sans-serif-smallcaps"
+            android:paddingTop="5dp"
             android:text="Purpose"
-            android:textColor="#FFFFFF"
-            android:textSize="24sp"
-            android:paddingTop="16dp" />
+            android:textColor="@color/gold"
+            android:textSize="30sp" />
 
         <TextView
             android:id="@+id/purpose"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="This course is designed to equip caregivers with essential skills for providing high-quality
-care to children, from newborns to toddlers. Whether you're new to childcare or looking to enhance your expertise, this course prepares you to confidently handle the unique needs of babies and toddlers while fostering their
-growth and development."
+            android:text="This course is designed to equip caregivers with essential skills for providing high-quality care to children, from newborns to toddlers. Whether you're new to childcare or looking to enhance your expertise, this course prepares you to confidently handle the unique needs of babies and toddlers while fostering their growth and development. Throughout the course, you’ll complete practical projects such as designing daily routines, creating engaging activities, and learning essential caregiving techniques. By the end, you'll have a professional child care portfolio to demonstrate your skills and knowledge to potential families or employers."
             android:textColor="#FFFFFF"
-            android:textSize="18sp"
-            android:paddingTop="16dp" />
+            android:textSize="20sp"
+            android:fontFamily="sans-serif-condensed"
+            android:paddingTop="5dp"/>
+
+        <TextView
+            android:id="@+id/header3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="sans-serif-condensed"
+            android:paddingTop="5dp"
+            android:text="Fees"
+            android:textColor="#FFD700"
+            android:textSize="30sp" />
+
+        <TextView
+            android:id="@+id/fees"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="sans-serif-condensed"
+            android:paddingTop="5dp"
+            android:text="This course will take 6 weeks to complete.
+Fees are R750"
+            android:textColor="#FFFFFF"
+            android:textSize="20sp" />
 
         <Button
             android:id="@+id/backButton"

@@ -42,7 +42,7 @@
         android:layout_gravity="center_horizontal"
         android:layout_marginTop="20dp"
             android:padding="10dp"
-            android:background="@drawable/border2" />
+            android:background="@drawable/border" />
 
 
         <TextView
@@ -62,7 +62,7 @@
         android:layout_gravity="center_horizontal"
         android:layout_marginTop="20dp"
         android:padding="10dp"
-        android:background="@drawable/border2" />
+        android:background="@drawable/border" />
 
         <TextView
             android:layout_width="match_parent"
@@ -81,7 +81,7 @@
             android:layout_gravity="center_horizontal"
             android:layout_marginTop="20dp"
             android:padding="10dp"
-            android:background="@drawable/border2" />
+            android:background="@drawable/border" />
 
         <TextView
             android:layout_width="match_parent"

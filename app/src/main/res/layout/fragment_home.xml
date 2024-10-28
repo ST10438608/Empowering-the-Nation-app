@@ -32,7 +32,7 @@
             android:fontFamily="sans-serif-condensed"
             android:text="What We Do"
             android:textColor="@color/white"
-            android:textSize="30sp"
+            android:textSize="34sp"
             android:textStyle="bold" />
 
 
@@ -43,6 +43,7 @@
             android:layout_marginBottom="16dp"
             android:fontFamily="sans-serif-condensed-light"
             android:paddingTop="16dp"
+            android:padding="10dp"
             android:text="Empowering the Nation is an organisation aimed at providing skills training for domestic workers and gardeners."
             android:textColor="#FFFFFF"
             android:textSize="24sp" />
@@ -52,6 +53,19 @@
             android:layout_width="300dp"
             android:layout_height="200dp"
             android:layout_gravity="center_horizontal" />
+
+
+        <TextView
+            android:id="@+id/companyDescription2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="16dp"
+            android:fontFamily="sans-serif-condensed-light"
+            android:paddingTop="16dp"
+            android:padding="10dp"
+            android:text="Our mission is to equip individuals with valuable expertise, enhancing their employability and fostering entrepreneurship. By offering life-changing opportunities, we aim to uplift communities and create pathways to economic independence."
+            android:textColor="#FFFFFF"
+            android:textSize="24sp" />
 
     </LinearLayout>
 
