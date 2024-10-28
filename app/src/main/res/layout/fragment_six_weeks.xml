@@ -22,65 +22,76 @@
         android:layout_height="150dp"
         android:src="@drawable/etn_new_final_logo" />
 
-    <TextView
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:paddingTop="20dp"
-        android:text="6 Week Courses"
-        android:textSize="30sp"
-        android:textColor="@color/white"
-        android:gravity="center_horizontal" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="sans-serif-condensed"
+            android:gravity="center_horizontal"
+            android:paddingTop="20dp"
+            android:text="6 Week Courses"
+            android:textColor="@color/white"
+            android:textSize="30sp" />
 
-    <ImageView
+
+
+
+        <ImageView
         android:id="@+id/childmindingImage"
-        android:layout_width="match_parent"
-        android:layout_height="160dp"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
         android:layout_gravity="center_horizontal"
         android:layout_marginTop="20dp"
-        android:src="@drawable/childminding" />
+            android:padding="10dp"
+            android:background="@drawable/border2" />
+
 
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="-- Child Minding --"
+            android:fontFamily="sans-serif-smallcaps"
             android:gravity="center_horizontal"
-            android:textSize="30sp"
+            android:layout_marginTop="10dp"
+            android:text="-- Child Minding --"
             android:textColor="@color/white"
-            />
+            android:textSize="30sp" />
 
     <ImageView
         android:id="@+id/cookingImage"
-        android:layout_width="match_parent"
-        android:layout_height="167dp"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
         android:layout_gravity="center_horizontal"
         android:layout_marginTop="20dp"
-        android:src="@drawable/cooking" />
+        android:padding="10dp"
+        android:background="@drawable/border2" />
 
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="-- Cooking --"
+            android:fontFamily="sans-serif-smallcaps"
             android:gravity="center_horizontal"
-            android:textSize="30sp"
+            android:layout_marginTop="10dp"
+            android:text="-- Cooking --"
             android:textColor="@color/white"
-            />
+            android:textSize="30sp" />
 
         <ImageView
             android:id="@+id/gardenImage"
-            android:layout_width="wrap_content"
+            android:layout_width="150dp"
             android:layout_height="150dp"
             android:layout_gravity="center_horizontal"
             android:layout_marginTop="20dp"
-            android:src="@drawable/gardenmaintenance" />
+            android:padding="10dp"
+            android:background="@drawable/border2" />
 
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="-- Garden Maintenance --"
+            android:fontFamily="sans-serif-smallcaps"
             android:gravity="center_horizontal"
-            android:textSize="30sp"
+            android:layout_marginTop="10dp"
+            android:text="-- Garden Maintenance --"
             android:textColor="@color/white"
-            />
+            android:textSize="30sp" />
 
 
 

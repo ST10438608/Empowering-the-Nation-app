@@ -70,23 +70,25 @@ class Six_Months : Fragment() {
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
         super.onViewCreated(view, savedInstanceState)
 
-        Glide.with(this)
-            .load(R.drawable.landscaping)
-            .into(landscapingImage)
-
-        Glide.with(this)
-            .load(R.drawable.first_aid_symbol)
-            .into(firstAidImage)
 
         Glide.with(this)
             .load(R.drawable.sewing)
             .into(sewingImage)
 
         Glide.with(this)
+            .load(R.drawable.landscaping)
+            .into(landscapingImage)
+
+        Glide.with(this)
+            .load(R.drawable.firstaid2)
+            .into(firstAidImage)
+
+        Glide.with(this)
             .load(R.drawable.lifeskills)
             .into(lifeSkillsImage)
-
     }
+
+
 
     companion object {
 
