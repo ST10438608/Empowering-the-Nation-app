@@ -43,17 +43,17 @@ class Six_Weeks : Fragment() {
         gardenImage = view.findViewById(R.id.gardenImage)
 
         childMindingImage.setOnClickListener {
-            // Navigate to the other page (Fragment or Activity)
+            // Navigate to other screen
             findNavController().navigate(R.id.action_Six_Weeks_to_Child_Minding)
         }
 
         cookingImage.setOnClickListener {
-            // Navigate to the other page (Fragment or Activity)
+
             findNavController().navigate(R.id.action_Six_Weeks_to_Cooking)
         }
 
         gardenImage.setOnClickListener {
-            // Navigate to the other page (Fragment or Activity)
+
             findNavController().navigate(R.id.action_Six_Weeks_to_Garden_Maintenance)
         }
 
@@ -62,6 +62,8 @@ class Six_Weeks : Fragment() {
 
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
         super.onViewCreated(view, savedInstanceState)
+
+        // To reduce memory usage and avoid crashes
 
         Glide.with(this)
             .load(R.drawable.childminding)

@@ -50,7 +50,7 @@ class Fees : AppCompatActivity() {
             }
 
             override fun onNothingSelected(parent: AdapterView<*>?) {
-                // Do nothing
+
             }
         }
 
@@ -99,12 +99,12 @@ class Fees : AppCompatActivity() {
                 }
             }
 
-            checkBoxContainer.addView(checkBox) // Add only once
+            checkBoxContainer.addView(checkBox)
         }
     }
 
     internal fun showFeesPopup(totalFees: Double) {
-        val popupView = layoutInflater.inflate(R.layout.popup_fees, null) // Use layoutInflater directly
+        val popupView = layoutInflater.inflate(R.layout.popup_fees, null)
         val popupWindow = PopupWindow(
             popupView,
             LinearLayout.LayoutParams.WRAP_CONTENT,
@@ -132,7 +132,7 @@ class Fees : AppCompatActivity() {
 
         if (fullName.isEmpty() || email.isEmpty() || phoneNumber.isEmpty()) {
             Toast.makeText(this, "Please fill in all fields", Toast.LENGTH_SHORT).show()
-            return // Stop further execution
+            return
         }
 
         for (course in selectedCourses) {

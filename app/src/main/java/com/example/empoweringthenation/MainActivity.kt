@@ -32,7 +32,7 @@ class MainActivity : AppCompatActivity() {
                 R.id.home -> navController.navigate(R.id.home)
                 R.id.Six_Month_Courses -> navController.navigate(R.id.Six_Months)
                 R.id.Six_Week_Courses -> navController.navigate(R.id.Six_Weeks)
-                R.id.contact -> navController.navigate(R.id.contact) // Use navController for Contact
+                R.id.contact -> navController.navigate(R.id.contact)
             }
             true
         }
